@@ -5,10 +5,11 @@
             <div class="tcnBackground-JobFair"></div>
             <div class="titleBox">
                 <h1><strong>COMPUTER SCIENCE JOB FAIR</strong></h1>
-                <h2>Fall 2023</h2>
-                <h3>Wednesday, October 18th</h3>
+                <h2>Spring 2024</h2>
+                <h3>More Information Coming Soon</h3>
+                <!-- <h3>Wednesday, October 18th</h3>
                 <h4>3:00-4:00PM</h4>
-                <h3>SMC Multi-Purpose Room</h3>
+                <h3>SMC Multi-Purpose Room</h3> -->
             </div>
 
         </div>
@@ -18,7 +19,7 @@
                 <h2><strong>Explore Local Careers in Computer Science</strong></h2>
 
                 <p>
-                    TCN's Computer Science Job Fair is back this year during the fall semester!
+                    TCN's Computer Science Job Fair will be back this year during the spring 2024 semester!
                     All students persuing a computer science, IT, math, or related degree are encouraged to attend. 
                     <br>
                     Attendees will be able to network with industry professionals and discover exciting career

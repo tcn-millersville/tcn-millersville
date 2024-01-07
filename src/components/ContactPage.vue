@@ -5,7 +5,7 @@
       <div class="tcnBackground"></div>
       <div class="titleBox">
         <h4><strong>Get In Contact</strong></h4>
-        <h1><strong>MEET THE OFFCIERS</strong></h1>
+        <h1><strong>MEET THE OFFICERS</strong></h1>
       </div>
 
     </div>

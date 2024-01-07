@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="divider"></div>
-    <div class="footer-copyright-center">© 2023
+    <div class="footer-copyright-center">© 2024
       <a href="https://www.millersville.edu/" style="color: #ecb431">Millersville
         University</a>. All Rights Reserved.
     </div>

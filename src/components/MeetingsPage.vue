@@ -28,6 +28,14 @@
         </p>
         <p style="text-align: center; padding-left: 100px; padding-right: 100px;">Here you can find our archive recorded meetings:</p>
           <div>
+             <h1 style="text-align: center; style= font-size: 200%"><strong>[10/03/2023] TCN Resume Workshop</strong></h1>
+        <div class="video-container">
+            <iframe width="600" height="400" :src="embedUrl5" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p style="text-align: center; padding-left: 300px; padding-right: 300px;">
+            Have you wanted to make a great resume but are not sure where to start? That's where we come in! The President (Mitchell Harrison) and Vice President (Justin Stevens) of TCN did a resume workshop on what to put, resources to use, advice for juniors and seniors, and more.
+        </p>
+        <br>
             <h1 style="text-align: center; style= font-size: 200%"><strong>[10/27/2022] Julie Gardner - WebFX</strong></h1>
         <div class="video-container">
             <iframe width="600" height="400" :src="embedUrl" frameborder="0" allowfullscreen></iframe>
@@ -95,6 +103,7 @@ export default {
             videoId2: 'AQXmNPADHZ4',
             videoId3: 'APC5P8Iw3GM',
             videoId4: 'mhK9TEG7TlE',
+            videoId5: 'zhW3dusNU54'
         };
     },
     computed: {
@@ -110,7 +119,10 @@ export default {
         },
         embedUrl4() {
             return `https://www.youtube.com/embed/${this.videoId4}`;
-        }
+        },
+        embedUrl5() {
+            return `https://www.youtube.com/embed/${this.videoId5}`;
+        },
     },
 }
 
