@@ -1,6 +1,5 @@
 # vue-tcn-website
-I HAVE NO IDEA WHAT IS GOING ON HELP
-THIS IS SO INFURIATING
+in progress
 
 ## Project setup
 ```
