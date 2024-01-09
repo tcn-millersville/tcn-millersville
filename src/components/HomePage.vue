@@ -30,7 +30,7 @@
                 The TCN hosts meetings featuring guest speakers from the industry. We typically invite Millersville alumni
                 to share their experiences transitioning from a student into a paid computer scientist. During these
                 meetings,
-                students have the oppourtunity to meet someone successful & well-versed in the industry.
+                students have the opportunity to meet someone successful & well-versed in the industry.
               </p>
             </div>
           </div>

@@ -20,12 +20,12 @@
 
                 <p>
                     TCN's Computer Science Job Fair will be back this year during the spring 2024 semester!
-                    All students persuing a computer science, IT, math, or related degree are encouraged to attend. 
+                    All students pursuing a computer science, IT, math, or related degree are encouraged to attend.
                     <br>
                     Attendees will be able to network with industry professionals and discover exciting career
                     opportunities.
                     This event is an ideal platform for students looking for summer internships, part-time, or full-time positions.
-                    We reccomend you bring a copy of your resume 
+                    We recommend you bring a copy of your resume
                 </p>
 
                 <h2><strong>Location</strong></h2>
