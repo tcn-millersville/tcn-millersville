@@ -21,5 +21,10 @@ npm run build
 npm run lint
 ```
 
+### Runs the build command then deploys to the gh-pages branch to start GitHub website deployment action
+```
+npm run deploy
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
