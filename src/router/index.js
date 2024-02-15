@@ -7,28 +7,35 @@ import ContactPage from '@/components/ContactPage.vue';
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   base: "/mharrison7787.github.io/",
   routes: [
     {
       path: "/",
-      name: "HomePage",
+      name: "Technology Career Network (TCN)",
       component: HomePage,
     },
     {
       path: "/JobFairPage",
-      name: "JobFairPage",
+      name: "TCN Job Fairs",
       component: JobFairPage,
     },
     {
       path: "/MeetingsPage",
-      name: "MeetingsPage",
+      name: "TCN Meetings",
       component: MeetingsPage,
     },
     {
       path: "/ContactPage",
-      name: "ContactPage",
+      name: "TCN Contact Us",
       component: ContactPage,
     },
   ],
 });
+
+router.beforeEach((route, from, next) => {
+  document.title = route.name;
+  next();
+});
+
+export default router;
