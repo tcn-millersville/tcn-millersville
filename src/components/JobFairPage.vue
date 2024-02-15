@@ -6,10 +6,10 @@
             <div class="titleBox">
                 <h1><strong>COMPUTER SCIENCE JOB FAIR</strong></h1>
                 <h2>Spring 2024</h2>
-                <h3>More Information Coming Soon</h3>
-                <!-- <h3>Wednesday, October 18th</h3>
-                <h4>3:00-4:00PM</h4>
-                <h3>SMC Multi-Purpose Room</h3> -->
+<!--                <h3>More Information Coming Soon</h3>-->
+                <h3>Wednesday, March 13th</h3>
+                <h4>3:30-4:30PM</h4>
+                <h3>SMC Multi-Purpose Room</h3>
             </div>
 
         </div>
@@ -25,7 +25,7 @@
                     Attendees will be able to network with industry professionals and discover exciting career
                     opportunities.
                     This event is an ideal platform for students looking for summer internships, part-time, or full-time positions.
-                    We recommend you bring a copy of your resume
+                    We recommend you bring a copy of your resume.
                 </p>
 
                 <h2><strong>Location</strong></h2>
@@ -56,7 +56,7 @@
                     there is no fee to attend!
                 </p>
                 <p>For more information, or to reserve a table, please reach out to our president, 
-                    Mitchell Harrison: mdharri2@millersville.edu
+                    Mitchell Harrison: <a href="mailto:mdharri2@millersville.edu">mdharri2@millersville.edu</a>
                 </p>
 
                 <p><strong>Can't make the fair?</strong> We are always looking to collaborate with companies! Let us know if you'd like to

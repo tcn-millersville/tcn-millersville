@@ -28,7 +28,7 @@
         </p>
         <p style="text-align: center; padding-left: 100px; padding-right: 100px;">Here you can find our archive recorded meetings:</p>
           <div>
-             <h1 style="text-align: center; style= font-size: 200%"><strong>[10/03/2023] TCN Resume Workshop</strong></h1>
+             <h1 style="text-align: center; font-size: 200%"><strong>[10/03/2023] TCN Resume Workshop</strong></h1>
         <div class="video-container">
             <iframe width="600" height="400" :src="embedUrl5" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -36,7 +36,7 @@
             Have you wanted to make a great resume but are not sure where to start? That's where we come in! The President (Mitchell Harrison) and Vice President (Justin Stevens) of TCN did a resume workshop on what to put, resources to use, advice for juniors and seniors, and more.
         </p>
         <br>
-            <h1 style="text-align: center; style= font-size: 200%"><strong>[10/27/2022] Julie Gardner - WebFX</strong></h1>
+            <h1 style="text-align: center; font-size: 200%"><strong>[10/27/2022] Julie Gardner - WebFX</strong></h1>
         <div class="video-container">
             <iframe width="600" height="400" :src="embedUrl" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -46,7 +46,7 @@
             and answered questions about the recruitment process.
         </p>
         <br>
-        <h1 style="text-align: center; style= font-size: 200%"><strong>[3/25/2022] Chris Carney - Crafting a Great Resume</strong></h1>
+        <h1 style="text-align: center; font-size: 200%"><strong>[3/25/2022] Chris Carney - Crafting a Great Resume</strong></h1>
         <div class="video-container">
             <iframe width="600" height="400" :src="embedUrl2" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -56,7 +56,7 @@
             as formatting, do's & don'ts, what hiring managers are looking for, and more.
         </p>
         <br>
-        <h1 style="text-align: center; style= font-size: 200%"><strong>[03/04/2022] Richard Abel and Hallie Lupinski - Deloitte</strong></h1>
+        <h1 style="text-align: center; font-size: 200%"><strong>[03/04/2022] Richard Abel and Hallie Lupinski - Deloitte</strong></h1>
         <div class="video-container">
             <iframe width="600" height="400" :src="embedUrl3" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -66,7 +66,7 @@
             interview, industry trends, and held a Q&A for students.
         </p>
         <br>
-        <h1 style="text-align: center; style= font-size: 200%"><strong>[2/18/2022] Guest Speaker: Lea Eller</strong></h1>
+        <h1 style="text-align: center; font-size: 200%"><strong>[2/18/2022] Guest Speaker: Lea Eller</strong></h1>
         <div class="video-container">
             <iframe width="600" height="400" :src="embedUrl4" frameborder="0" allowfullscreen></iframe>
         </div>

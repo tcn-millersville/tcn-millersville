@@ -201,6 +201,7 @@ li {
 
 .img-wrapper img {
   width: 60%;
+  min-width: 200px;
 }
 
 a.link-arrow {
