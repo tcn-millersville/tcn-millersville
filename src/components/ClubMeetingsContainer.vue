@@ -2,11 +2,58 @@
   <div>
 
     <ClubMeeting
+        meeting-title="[2/27/2024] TCN Internship Workshop"
+        meeting-description="TCN presentation on internships: Join the TCN officers as they give a presentation on the importance of internships and how to secure one.
+          They provide information on the application process, tips for standing out in a competitive market, and the benefits of gaining real-world experience."
+        :video-source="getEmbedUrl('JEohDxCb888')"
+    />
+
+    <br>
+
+    <ClubMeeting
+        meeting-title="[2/22/2024] Deloitte Presentation - Katelyn Baker and Others"
+        meeting-description="Katelyn Baker is a Talent Acquisition Specialist from Deloitte.
+          She will share an overview of the company and some key insights into recruitment!"
+        :video-source="getEmbedUrl('kAWHrVic19c')"
+    />
+
+    <br>
+
+    <ClubMeeting
+        meeting-title="[2/20/2024] Interview Workshop - Kevin Workman"
+        meeting-description="Special Guest Kevin Workman:
+          Kevin is a great resource for tackling job interviews in computer science.
+            He is a Google software engineer with years of experience and shares valuable insights and tips on how to handle interviews and what to expect when applying for jobs!"
+        :video-source="getEmbedUrl('LxkLepYLd4Q')"
+    />
+
+<!--    <br>-->
+
+<!--    <ClubMeeting-->
+<!--        meeting-title="[1/30/2024] Dr. Hogg's Guide To Graduate School"-->
+<!--        meeting-description="Ever wondered what it takes to get into graduate school?-->
+<!--          Curious about choosing the right program or the purpose of grad school?-->
+<!--          Join us for a deep dive into the world of graduate education with Dr. Hogg."-->
+<!--        :video-source="getEmbedMillersvilleUrl('https://millersville.mediaspace.kaltura.com/media/t/1_pbqeuewp')"-->
+<!--    />-->
+
+<!--    <br>-->
+
+<!--    <ClubMeeting-->
+<!--        meeting-title="[10/8/2023] TCN Resume Workshop"-->
+<!--        meeting-description="We are hosting a resume workshop hosted by the President (Mitchell Harrison) and Vice President (Justin Stevens).-->
+<!--          Our goal for this resume workshop is to give out free resume templates for both students looking for internships and students about to graduate who are looking for jobs,-->
+<!--          give the do's/don'ts of what to put on a resume, how to structure a resume, what resources are on campus, and general overall advice!"-->
+<!--        :video-source="getEmbedUrl('')"-->
+<!--    />-->
+
+    <br>
+
+    <ClubMeeting
         meeting-title="[10/27/2022] Julie Gardner - WebFX"
         meeting-description="Julie Gardner is a Talent Acquisition Specialist from WebFX, a digital marketing agency and web/software
-                    development company with many locations, including Harrisburg, PA. She shared an overview of the
-                    company,
-                    and answered questions about the recruitment process."
+          development company with many locations, including Harrisburg, PA. She shared an overview of the
+          company, and answered questions about the recruitment process."
         :video-source="embedUrl"
     />
 
@@ -69,7 +116,7 @@ export default {
       videoId2: 'AQXmNPADHZ4',
       videoId3: 'APC5P8Iw3GM',
       videoId4: 'mhK9TEG7TlE',
-      videoId5: 'zhW3dusNU54'
+      videoId5: 'zhW3dusNU54',
     };
   },
   computed: {
@@ -89,6 +136,14 @@ export default {
       return `${this.rootURL + this.videoId5}`;
     },
   },
+  methods: {
+    getEmbedUrl(videoId) {
+      return `${this.rootURL + videoId}`;
+    },
+    getEmbedMillersvilleUrl(videoURL) {
+      return `${videoURL}`;
+    }
+  }
 }
 </script>
 
