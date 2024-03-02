@@ -174,7 +174,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../../assets/circut-background.gif');
+  background-image: url('@/assets/circut-background.gif');
   background-size: cover;
   background-position: 50% 60%;
   background-repeat: no-repeat;

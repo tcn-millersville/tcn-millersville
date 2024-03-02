@@ -35,14 +35,14 @@
           </div>
 
           <div class="img-wrapper col">
-            <img src="../../assets/WebFx.jpg">
+            <img src="@/assets/WebFx.jpg">
           </div>
         </div>
 
         <div class="row">
           <div class="img-wrapper col">
 
-            <img src="../../assets/job-fair-seisan.jpg">
+            <img src="@/assets/job-fair-seisan.jpg">
           </div>
           <div class="col">
             <div class="text-box">
@@ -93,7 +93,7 @@
           </div>
 
           <div class="img-wrapper col">
-            <img src="../../assets/Stephen.jpg">
+            <img src="@/assets/Stephen.jpg">
           </div>
         </div>
 
@@ -104,7 +104,7 @@
       <div class="row">
 
         <div class="col">
-          <img class="icon" src="../../assets/resume.png">
+          <img class="icon" src="@/assets/resume.png">
           <h2>RESUMES</h2>
           <p>Learn what hiring managers and recruiters look for in a resume. Get yours reviewed by your peers and
             industry
@@ -113,14 +113,14 @@
         </div>
 
         <div class="col">
-          <img class="icon" src="../../assets/network.png">
+          <img class="icon" src="@/assets/network.png">
           <h2>NETWORKING</h2>
           <p>Understand how to use tools like LinkedIn and attend conferences where you can meet with local
             companies or expand your knowledge </p>
         </div>
 
         <div class="col">
-          <img class="icon" src="../../assets/hand-shake.png">
+          <img class="icon" src="@/assets/hand-shake.png">
           <h2>JOB INTERVIEWS</h2>
           <p>Break down the interview process and know what to expect. From coding practice problems to how to present
             yourself</p>
@@ -262,7 +262,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../../assets/PXL_20230401_181640062.jpg');
+  background-image: url('@/assets/PXL_20230401_181640062.jpg');
   background-size: cover;
   background-position: 50% 60%;
   background-repeat: no-repeat;

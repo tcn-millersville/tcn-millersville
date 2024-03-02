@@ -3,7 +3,7 @@
   <div>
     <h1 style="text-align: center; font-size: 200%"><strong>{{ meetingTitle }}</strong></h1>
     <div class="video-container">
-      <iframe width="600" height="400" :src="videoSource" frameborder="0" allowfullscreen></iframe>
+      <iframe width="600" height="400" :src="videoSource" allowfullscreen></iframe>
     </div>
     <p style="text-align: center; padding-left: 300px; padding-right: 300px;">
       {{ meetingDescription }}

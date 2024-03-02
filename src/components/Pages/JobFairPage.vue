@@ -39,7 +39,7 @@
                 <div class="location-wrapper row">
 
                     <div class="col">
-                        <img src="../../assets/smc.jpg">
+                        <img src="@/assets/smc.jpg" alt="Millersville University Student Memorial Center Building">
                     </div>
                     <div class="col">
                         <iframe
@@ -69,11 +69,11 @@
                     2023!
                 </p>
                 <div class="logos">
-                    <img src="@/assets/company-logos/cargas.png">
-                    <img src="@/assets/company-logos/dataforma.png">
-                    <img src="@/assets/company-logos/deloitte.png">
-                    <img src="@/assets/company-logos/quub.jpeg">
-                    <img src="@/assets/company-logos/seisan.png">
+                    <img src="@/assets/company-logos/cargas.png" alt="Cargas Company Logo">
+                    <img src="@/assets/company-logos/dataforma.png" alt="Dataforma Company Logo">
+                    <img src="@/assets/company-logos/deloitte.png" alt="Deloitte Company Logo">
+                    <img src="@/assets/company-logos/quub.jpeg" alt="Quub Company Logo">
+                    <img src="@/assets/company-logos/seisan.png" alt="Seisan Company Logo">
                 </div>
                 <!-- Have company logos here -->
 
@@ -143,7 +143,7 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../assets/jobfair-9-min.jpg');
+    background-image: url('@/assets/jobfair-9-min.jpg');
     background-size: cover;
     background-position: 50% 60%;
     background-repeat: no-repeat;

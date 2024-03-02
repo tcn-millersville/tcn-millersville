@@ -27,34 +27,14 @@
         :video-source="getEmbedUrl('LxkLepYLd4Q')"
     />
 
-<!--    <br>-->
-
-<!--    <ClubMeeting-->
-<!--        meeting-title="[1/30/2024] Dr. Hogg's Guide To Graduate School"-->
-<!--        meeting-description="Ever wondered what it takes to get into graduate school?-->
-<!--          Curious about choosing the right program or the purpose of grad school?-->
-<!--          Join us for a deep dive into the world of graduate education with Dr. Hogg."-->
-<!--        :video-source="getEmbedMillersvilleUrl('https://millersville.mediaspace.kaltura.com/media/t/1_pbqeuewp')"-->
-<!--    />-->
-
-<!--    <br>-->
-
-<!--    <ClubMeeting-->
-<!--        meeting-title="[10/8/2023] TCN Resume Workshop"-->
-<!--        meeting-description="We are hosting a resume workshop hosted by the President (Mitchell Harrison) and Vice President (Justin Stevens).-->
-<!--          Our goal for this resume workshop is to give out free resume templates for both students looking for internships and students about to graduate who are looking for jobs,-->
-<!--          give the do's/don'ts of what to put on a resume, how to structure a resume, what resources are on campus, and general overall advice!"-->
-<!--        :video-source="getEmbedUrl('')"-->
-<!--    />-->
-
     <br>
 
     <ClubMeeting
-        meeting-title="[10/27/2022] Julie Gardner - WebFX"
-        meeting-description="Julie Gardner is a Talent Acquisition Specialist from WebFX, a digital marketing agency and web/software
-          development company with many locations, including Harrisburg, PA. She shared an overview of the
-          company, and answered questions about the recruitment process."
-        :video-source="embedUrl"
+        meeting-title="[1/30/2024] Dr. Hogg's Guide To Graduate School"
+        meeting-description="Ever wondered what it takes to get into graduate school?
+          Curious about choosing the right program or the purpose of grad school?
+          Join us for a deep dive into the world of graduate education with Dr. Hogg."
+        :video-source="getEmbedUrl('V9F8LmBtN_k')"
     />
 
     <br>
@@ -65,6 +45,16 @@
                     President (Mitchell Harrison) and Vice President (Justin Stevens) of TCN did a resume workshop on what
                     to put, resources to use, advice for juniors and seniors, and more."
         :video-source="embedUrl5"
+    />
+
+    <br>
+
+    <ClubMeeting
+        meeting-title="[10/27/2022] Julie Gardner - WebFX"
+        meeting-description="Julie Gardner is a Talent Acquisition Specialist from WebFX, a digital marketing agency and web/software
+          development company with many locations, including Harrisburg, PA. She shared an overview of the
+          company, and answered questions about the recruitment process."
+        :video-source="embedUrl"
     />
 
     <br>
@@ -140,9 +130,6 @@ export default {
     getEmbedUrl(videoId) {
       return `${this.rootURL + videoId}`;
     },
-    getEmbedMillersvilleUrl(videoURL) {
-      return `${videoURL}`;
-    }
   }
 }
 </script>
