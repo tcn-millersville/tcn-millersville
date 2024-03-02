@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomePage from '@/components/HomePage.vue';
-import JobFairPage from '@/components/JobFairPage.vue';
-import MeetingsPage from '@/components/MeetingsPage.vue';
-import ContactPage from '@/components/ContactPage.vue';
+import HomePage from '@/components/Pages/HomePage.vue';
+import JobFairPage from '@/components/Pages/JobFairPage.vue';
+import MeetingsPage from '@/components/Pages/MeetingsPage.vue';
+import ContactPage from '@/components/Pages/ContactPage.vue';
 
 Vue.use(Router)
 

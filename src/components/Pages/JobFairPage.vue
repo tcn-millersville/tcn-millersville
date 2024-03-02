@@ -39,7 +39,7 @@
                 <div class="location-wrapper row">
 
                     <div class="col">
-                        <img src="../assets/smc.jpg">
+                        <img src="../../assets/smc.jpg">
                     </div>
                     <div class="col">
                         <iframe
@@ -69,11 +69,11 @@
                     2023!
                 </p>
                 <div class="logos">
-                    <img src="../assets/company-logos/cargas.png">
-                    <img src="../assets/company-logos/dataforma.png">
-                    <img src="../assets/company-logos/deloitte.png">
-                    <img src="../assets/company-logos/quub.jpeg">
-                    <img src="../assets/company-logos/seisan.png">
+                    <img src="@/assets/company-logos/cargas.png">
+                    <img src="@/assets/company-logos/dataforma.png">
+                    <img src="@/assets/company-logos/deloitte.png">
+                    <img src="@/assets/company-logos/quub.jpeg">
+                    <img src="@/assets/company-logos/seisan.png">
                 </div>
                 <!-- Have company logos here -->
 
@@ -105,15 +105,15 @@ export default {
     data() {
         return {
             images: [
-                { src: require('../assets/jobfair-1-min-p-500.jpg') },
-                { src: require('../assets/jobfair-2-min-p-500.jpg') },
-                { src: require('../assets/jobfair-3-min-p-500.jpg') },
-                { src: require('../assets/jobfair-4-min-p-500.jpg') },
-                { src: require('../assets/jobfair-5-min-p-500.jpg') },
-                { src: require('../assets/jobfair-6-min.jpg') },
-                { src: require('../assets/jobfair-7-min.jpg') },
-                { src: require('../assets/jobfair-8-min.jpg') },
-                { src: require('../assets/jobfair-9-min.jpg') },
+                { src: require('@/assets/jobfair-1-min-p-500.jpg') },
+                { src: require('@/assets/jobfair-2-min-p-500.jpg') },
+                { src: require('@/assets/jobfair-3-min-p-500.jpg') },
+                { src: require('@/assets/jobfair-4-min-p-500.jpg') },
+                { src: require('@/assets/jobfair-5-min-p-500.jpg') },
+                { src: require('@/assets/jobfair-6-min.jpg') },
+                { src: require('@/assets/jobfair-7-min.jpg') },
+                { src: require('@/assets/jobfair-8-min.jpg') },
+                { src: require('@/assets/jobfair-9-min.jpg') },
             ]
         };
     }
@@ -143,7 +143,7 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../assets/jobfair-9-min.jpg');
+    background-image: url('../../assets/jobfair-9-min.jpg');
     background-size: cover;
     background-position: 50% 60%;
     background-repeat: no-repeat;
@@ -189,7 +189,6 @@ export default {
 .logos img {
     max-height: 50px;
 }
-
 
 /* Add custom CSS to space out the images and add a new line between rows */
 .row {

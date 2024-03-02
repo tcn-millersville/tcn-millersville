@@ -13,13 +13,11 @@
     </div>
 
 
-
-
     <div class="content">
       <div class="content-inner">
         <h1 style="font-size:35px"><strong>Join a club focused on the professional development of Computer Science
-            students at
-            Millersville</strong></h1>
+          students at
+          Millersville</strong></h1>
         <hr>
         <div class="row">
           <div class="col">
@@ -27,7 +25,8 @@
               <h2><strong>Meet Industry Professionals</strong></h2>
               <hr>
               <p>
-                The TCN hosts meetings featuring guest speakers from the industry. We typically invite Millersville alumni
+                The TCN hosts meetings featuring guest speakers from the industry. We typically invite Millersville
+                alumni
                 to share their experiences transitioning from a student into a paid computer scientist. During these
                 meetings,
                 students have the opportunity to meet someone successful & well-versed in the industry.
@@ -36,14 +35,14 @@
           </div>
 
           <div class="img-wrapper col">
-            <img src="../assets/WebFx.jpg">
+            <img src="../../assets/WebFx.jpg">
           </div>
         </div>
 
         <div class="row">
           <div class="img-wrapper col">
 
-            <img src="../assets/job-fair-seisan.jpg">
+            <img src="../../assets/job-fair-seisan.jpg">
           </div>
           <div class="col">
             <div class="text-box">
@@ -74,13 +73,16 @@
               <h2><strong>Learn About a Local Company</strong></h2>
               <hr>
               <p>
-                We also collaborate with local companies that are actively hiring summer interns or full time developers.
+                We also collaborate with local companies that are actively hiring summer interns or full time
+                developers.
                 During
                 these meetings,
-                students can expect to learn about the workflow and culture of a specific company as well as ask questions
+                students can expect to learn about the workflow and culture of a specific company as well as ask
+                questions
                 about
                 their hiring process,
-                open positions, and more. Speaking directly with a representative of a company is an invaluable experience
+                open positions, and more. Speaking directly with a representative of a company is an invaluable
+                experience
                 to
                 students deciding
                 where their next steps will be in their career.
@@ -91,7 +93,7 @@
           </div>
 
           <div class="img-wrapper col">
-            <img src="../assets/Stephen.jpg">
+            <img src="../../assets/Stephen.jpg">
           </div>
         </div>
 
@@ -102,22 +104,23 @@
       <div class="row">
 
         <div class="col">
-          <img class="icon" src="../assets/resume.png">
+          <img class="icon" src="../../assets/resume.png">
           <h2>RESUMES</h2>
-          <p>Learn what hiring managers and recruiters look for in a resume. Get yours reviewed by your peers and industry
+          <p>Learn what hiring managers and recruiters look for in a resume. Get yours reviewed by your peers and
+            industry
             professionals at our resume workshops</p>
 
         </div>
 
         <div class="col">
-          <img class="icon" src="../assets/network.png">
+          <img class="icon" src="../../assets/network.png">
           <h2>NETWORKING</h2>
           <p>Understand how to use tools like LinkedIn and attend conferences where you can meet with local
             companies or expand your knowledge </p>
         </div>
 
         <div class="col">
-          <img class="icon" src="../assets/hand-shake.png">
+          <img class="icon" src="../../assets/hand-shake.png">
           <h2>JOB INTERVIEWS</h2>
           <p>Break down the interview process and know what to expect. From coding practice problems to how to present
             yourself</p>
@@ -150,20 +153,19 @@
         </p>
 
         <div class="buttons">
-          <a href="https://discord.gg/nrE7QwkNax" style = "text-decoration: none"> 
+          <a href="https://discord.gg/nrE7QwkNax" style="text-decoration: none">
             <button type="button" class="btn discord-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-discord"
-              viewBox="0 0 16 16">
-              <path
-                d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
-            </svg> &nbsp; &nbsp; <strong>Join our Discord</strong>
-          </button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-discord"
+                   viewBox="0 0 16 16">
+                <path
+                    d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+              </svg> &nbsp; &nbsp; <strong>Join our Discord</strong>
+            </button>
           </a>
-        
+
         </div>
       </div>
     </div>
-
 
 
     <TCNBottmNavbar></TCNBottmNavbar>
@@ -173,11 +175,12 @@
 <script>
 import TCNnavbar from '@/components/TCNnavbar.vue';
 import TCNBottmNavbar from '@/components/TCNBottmNavbar.vue';
+
 export default {
   name: 'HomePage',
   components: {
     TCNnavbar,
-   
+
     TCNBottmNavbar,
   }
 }
@@ -259,7 +262,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../assets/PXL_20230401_181640062.jpg');
+  background-image: url('../../assets/PXL_20230401_181640062.jpg');
   background-size: cover;
   background-position: 50% 60%;
   background-repeat: no-repeat;
@@ -288,12 +291,12 @@ p {
 
 }
 
-.icon-banner>.row {
+.icon-banner > .row {
   width: 80%;
   align-items: center;
 }
 
-.content-inner>.row {
+.content-inner > .row {
   margin: 50px 0px;
 }
 
@@ -380,12 +383,5 @@ p {
 .discord-button:hover {
   color: white;
   background-color: #5865f2;
-}
-
-.container_discord {
-  display: flex;
-  padding: 20px 100px 10px;
-  flex-direction: column;
-  align-items: center;
 }
 </style>
