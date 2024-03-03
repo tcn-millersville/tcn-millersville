@@ -1,6 +1,7 @@
 <template>
   <div>
-    <TCNnavbar></TCNnavbar>
+    <TCNnavbar />
+
     <div class="tcnHeading">
       <div class="tcnBackground"></div>
       <div class="titleBox">
@@ -10,96 +11,11 @@
 
     </div>
 
-    <div class="content">
-      <div class="content-inner">
-        <h1 style="font-size:35px"><strong>Want to get in Contact with Us? <br>
-          Use the below submission form!</strong></h1>
+    <contact-form />
 
-        <div class="row">
-          <div class="col">
-            <div>
+    <officer-container />
 
-              <form method="post" action="https://forms.un-static.com/forms/10146f17ad4811e2b6189db350acad6968ce8c22">
-                <div class="form-group row">
-                  <label for="inputName" class="col-sm-2 col-form-label">Name</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputName" placeholder="Please enter your name">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="inputMessage" class="col-sm-2 col-form-label">Message</label>
-                  <div class="col-sm-10">
-                    <textarea name="inputMessage" cols="40" rows="8" class="form-control"></textarea>
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <div class="col-sm-2"></div>
-                  <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary submit-btn">Send</button>
-                  </div>
-                </div>
-
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content">
-      <div class="content-inner">
-        <h1 style="font-size:35px"><strong>Meet the Officers! <br>
-        </strong></h1>
-
-        <div class="row">
-
-          <officer-card
-            officer-name="Mitchell Harrison"
-            officer-title="President"
-            officer-email="mdharri2@millersville.edu"
-            officer-linked-in="https://www.linkedin.com/in/mitchell-harrison-9570b5253/"
-            officer-photo="mitchell-photo.jpg"
-          />
-
-          <officer-card
-              officer-name="Justin Stevens"
-              officer-title="Vice President"
-              officer-email="jmsteve1@millersville.edu"
-              officer-linked-in="https://www.linkedin.com/in/justin-stevens-77546021b/"
-              officer-photo="justin-photo.jpg"
-          />
-
-        </div>
-
-        <div class="row">
-
-          <officer-card
-              officer-name="Jonathan Rivera"
-              officer-title="Treasurer"
-              officer-email="jjriver1@millersville.edu"
-              officer-linked-in="https://www.linkedin.com/in/jonathan-rivera-2a0625212/"
-              officer-photo="Jon-photo.jpg"
-          />
-
-          <officer-card
-              officer-name="Tessa Hughes"
-              officer-title="Secretary"
-              officer-email="tmhughe1@millersville.edu"
-              officer-linked-in="#"
-              officer-photo="tess-photo.png"
-          />
-
-        </div>
-
-      </div>
-    </div>
-
-    <TCNBottmNavbar></TCNBottmNavbar>
+    <TCNBottmNavbar />
 
   </div>
 
@@ -108,14 +24,16 @@
 <script>
 import TCNnavbar from '@/components/TCNnavbar.vue';
 import TCNBottmNavbar from '@/components/TCNBottmNavbar.vue';
-import OfficerCard from "@/components/OfficerCard";
+import ContactForm from "@/components/ContactForm";
+import OfficerContainer from "@/components/OfficerContainer";
 
 export default {
   name: 'HomePage',
   components: {
     TCNnavbar,
     TCNBottmNavbar,
-    OfficerCard,
+    ContactForm,
+    OfficerContainer,
   }
 }
 </script>
@@ -191,23 +109,6 @@ p {
   border: 4px solid #EEB111;
 }
 
-.icon-banner > .row {
-  width: 80%;
-  align-items: center;
-}
-
-.content-inner > .row {
-  margin: 50px 0px;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 40px;
-  justify-content: space-evenly;
-}
-
 .text-box h2 {
   border-bottom: 2px solid #EEB111;
 }
@@ -222,33 +123,5 @@ p {
   padding-bottom: 0;
   padding-right: 20px;
   padding-left: 20px;
-}
-
-/* block with stripes */
-.content {
-  display: flex;
-  background-color: white;
-  background-image: linear-gradient(135deg, #ffffff 41.67%, #dfdfdf 41.67%, #dfdfdf 50%, #ffffff 50%, #ffffff 91.67%, #dfdfdf 91.67%, #dfdfdf 100%);
-  background-size: 8.49px 8.49px;
-  color: black;
-  padding: 50px 30px;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-/* The actual content div */
-.content-inner {
-  background-color: white;
-  padding-top: 30px;
-  width: 85%;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-}
-
-.submit-btn {
-  width: 150px;
 }
 </style>
