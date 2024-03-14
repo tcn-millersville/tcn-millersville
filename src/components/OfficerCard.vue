@@ -4,7 +4,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <div class="card">
-      <img :src="require(`@/assets/${officerPhoto}`)" :alt="officerName" style="width:100%">
+      <img :src="require(`@/assets/officers/${officerPhoto}`)" :alt="officerName" style="width:100%">
       <h2> {{ officerName }} </h2>
       <p class="card-title"> {{ officerTitle }} </p>
       <p><a :href="officerEmail">{{ officerEmail }}</a></p>

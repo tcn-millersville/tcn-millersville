@@ -65,7 +65,7 @@ export default {
 };
 </script>
   
-<style>
+<style scoped>
 .slideshow-modal {
     position: fixed;
     top: 0;

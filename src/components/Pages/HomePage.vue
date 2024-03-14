@@ -41,8 +41,7 @@
 
         <div class="row">
           <div class="img-wrapper col">
-
-            <img src="@/assets/job-fair-seisan.jpg">
+            <img src="@/assets/job_fair/spring2023/job-fair-seisan.jpg" alt="Spring 2023 Job Fair Photo">
           </div>
           <div class="col">
             <div class="text-box">
@@ -53,7 +52,6 @@
                 students,
                 connecting them with local companies that have open positions.
               </p>
-              <p>The Spring 2024 Job Fair is coming and more information will be coming! </p>
               <router-link style="text-decoration: none;" to="/JobFairPage">
                 <a class="link-arrow2"><strong> Learn more </strong>
                   <p class="arrow">&#10132;</p>
@@ -104,7 +102,7 @@
       <div class="row">
 
         <div class="col">
-          <img class="icon" src="@/assets/resume.png">
+          <img class="icon" src="@/assets/icons/resume.png">
           <h2>RESUMES</h2>
           <p>Learn what hiring managers and recruiters look for in a resume. Get yours reviewed by your peers and
             industry
@@ -113,14 +111,14 @@
         </div>
 
         <div class="col">
-          <img class="icon" src="@/assets/network.png">
+          <img class="icon" src="@/assets/icons/network.png">
           <h2>NETWORKING</h2>
           <p>Understand how to use tools like LinkedIn and attend conferences where you can meet with local
             companies or expand your knowledge </p>
         </div>
 
         <div class="col">
-          <img class="icon" src="@/assets/hand-shake.png">
+          <img class="icon" src="@/assets/icons/hand-shake.png">
           <h2>JOB INTERVIEWS</h2>
           <p>Break down the interview process and know what to expect. From coding practice problems to how to present
             yourself</p>

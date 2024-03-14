@@ -17,11 +17,11 @@
         </router-link>
         <li class="navbar-item"></li>
         <li class="navbar-item">
-          <router-link to="/"><img src="../assets/MU_TCN-logo-min-p-500.png" width="250%"></router-link>
+          <router-link to="/"><img src="../assets/logo/MU_TCN-logo-min-p-500.png" width="250%"></router-link>
         </li>
         <li class="navbar-item"></li>
         <router-link style="text-decoration: none; color: inherit;" to="/JobFairPage" @click="closeMenu">
-          <li class="navbar-item clickable">JOB FAIR</li>
+          <li class="navbar-item clickable">JOB FAIRS</li>
         </router-link>
         <router-link style="text-decoration: none; color: inherit;" to="/ContactPage" @click="closeMenu">
           <li class="navbar-item clickable">CONTACT</li>
@@ -53,7 +53,7 @@ export default {
 
 };
 
-</script>
+</script >
 <style>
 body {
   margin: 0;

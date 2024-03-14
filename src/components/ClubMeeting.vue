@@ -5,7 +5,7 @@
     <div class="video-container">
       <iframe width="600" height="400" :src="videoSource" allowfullscreen></iframe>
     </div>
-    <p style="text-align: center; padding-left: 300px; padding-right: 300px;">
+    <p class="meeting-description">
       {{ meetingDescription }}
     </p>
   </div>
@@ -33,5 +33,11 @@ p {
 h1 {
   text-align: center;
   font-size: 200%;
+}
+
+.meeting-description {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 </style>
