@@ -21,11 +21,11 @@
         <div class="row">
           <div class="col">
             <h1 style="font-size:35px"><strong>Meetings Archive</strong></h1>
-            <p style="text-align: center; padding-left: 100px; padding-right: 100px;">
+            <p>
               If you were not able to attend a previous
               TCN meeting or if you are curious to see what TCN meetings are like
             </p>
-            <p style="text-align: center; padding-left: 100px; padding-right: 100px;">Here you can find our archive
+            <p>Here you can find our archive
               recorded meetings:</p>
 
             <club-meetings-container />
@@ -58,6 +58,28 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@media (max-width: 800px) {
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
 h3 {
   margin: 40px 0 0;
 }
@@ -85,12 +107,6 @@ li {
 .link-arrow:hover p,
 .link-arrow2:hover p {
   transform: translateX(50%);
-}
-
-p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
 }
 
 .tcnHeading {
