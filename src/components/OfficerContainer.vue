@@ -8,19 +8,19 @@
       <div class="row">
 
         <officer-card
-            officer-name="Mitchell Harrison"
+            officer-name="Tristan Rush"
             officer-title="President"
-            officer-email="mdharri2@millersville.edu"
-            officer-linked-in="https://www.linkedin.com/in/mitchell-harrison-9570b5253/"
-            officer-photo="mitchell-photo.jpg"
+            officer-email="tjrush@millersville.edu"
+            officer-linked-in="https://www.linkedin.com/in/tristanjrush/"
+            officer-photo="Tristan-photo.png"
         />
 
         <officer-card
-            officer-name="Justin Stevens"
+            officer-name="Zac Tawfick"
             officer-title="Vice President"
-            officer-email="jmsteve1@millersville.edu"
-            officer-linked-in="https://www.linkedin.com/in/justin-stevens-77546021b/"
-            officer-photo="justin-photo.jpg"
+            officer-email="zctawfic@millersville.edu"
+            officer-linked-in="https://www.linkedin.com/in/zac-tawfick/"
+            officer-photo="Zac-photo.jpg"
         />
 
       </div>

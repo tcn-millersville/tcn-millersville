@@ -62,11 +62,13 @@ body {
 
 .navbar {
   background-color: black;
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
   padding: 0 !important;
+  /* Added z-index property */
+  z-index: 999;
 
 }
 

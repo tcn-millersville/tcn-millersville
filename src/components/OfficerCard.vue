@@ -8,7 +8,7 @@
       <h2> {{ officerName }} </h2>
       <p class="card-title"> {{ officerTitle }} </p>
       <p><a :href="officerEmail">{{ officerEmail }}</a></p>
-      <p><a :href="officerLinkedIn"><i class="fa fa-linkedin"></i></a></p>
+      <p><a :href="officerLinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></p>
     </div>
   </div>
 </template>
@@ -91,6 +91,12 @@ p {
   max-width: 300px;
   margin: auto;
   text-align: center;
+}
+
+/* Border radius for officer photos so they don't go over the card border*/
+.card > img {
+  border-top-left-radius: var(--bs-card-border-radius);
+  border-top-right-radius: var(--bs-card-border-radius);
 }
 
 .card-title {
