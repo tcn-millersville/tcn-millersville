@@ -32,6 +32,12 @@ export default {
       rootURL: 'https://www.youtube.com/embed/',
       clubMeetings: [
         {
+          title: "[4/16/2024] TCN Interviewing Tips and Tricks",
+          description: "Join the TCN officers as they give an overview of their experiences with interviews. They go over various tips, tricks, and real-world interview questions to help you prepare for your next interview! At the end of the video the new president and vice-president for TCN in the Fall 2024 semester are introduced.",
+          videoId: "SjnwHCTQjyY",
+          value: 9,
+        },
+        {
           title: "[2/27/2024] TCN Internship Workshop",
           description: "TCN presentation on internships: Join the TCN officers as they give a presentation on the importance of internships and how to secure one. They provide information on the application process, tips for standing out in a competitive market, and the benefits of gaining real-world experience.",
           videoId: "JEohDxCb888",
