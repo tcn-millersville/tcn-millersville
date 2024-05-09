@@ -2,29 +2,30 @@
 
   <div>
     <h1><strong>{{ meetingTitle }}</strong></h1>
-    <div class="video-container">
-      <iframe class="responsive-iframe" :src="videoSource" allowfullscreen></iframe>
+    <div class="meetingWrapper">
+      <div class="video-container">
+        <iframe class="responsive-iframe" :src="videoSource" allowfullscreen></iframe>
+      </div>
+      <p class="meeting-description">
+        {{ meetingDescription }}
+      </p>
     </div>
-    <p class="meeting-description">
-      {{ meetingDescription }}
-    </p>
   </div>
 
 </template>
 
 <script>
-  export default {
-    name: "ClubMeeting",
-    props: {
-      meetingTitle: String,
-      meetingDescription: String,
-      videoSource: String
-    }
+export default {
+  name: "ClubMeeting",
+  props: {
+    meetingTitle: String,
+    meetingDescription: String,
+    videoSource: String
   }
+}
 </script>
 
 <style scoped>
-
 @media (max-width: 800px) {
   .responsive-iframe {
     width: 100%;
@@ -57,13 +58,31 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .meetingWrapper {
+    display: block;
+    justify-content: center;
+  }
+
+  h1 {
+    margin: 5px 0;
+  }
 }
 
 @media (min-width: 1500px) {
   .meeting-description {
-    text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .meetingWrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h1 {
+    margin: 20px 0;
   }
 }
 

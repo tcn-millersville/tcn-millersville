@@ -82,6 +82,10 @@ p {
   font-size: 18px;
 }
 
+div > .row {
+  margin: 5px 0 !important;
+}
+
 .icon-banner > .row {
   width: 80%;
   align-items: center;

@@ -28,11 +28,10 @@
       <div class="row">
 
         <officer-card
-            officer-name="Jonathan Rivera"
+            officer-name="Lincoln Craddock"
             officer-title="Treasurer"
-            officer-email="jjriver1@millersville.edu"
-            officer-linked-in="https://www.linkedin.com/in/jonathan-rivera-2a0625212/"
-            officer-photo="Jon-photo.jpg"
+            officer-email="lccraddo@millersville.edu"
+            officer-photo="Lincoln-photo.jpg"
         />
 
         <officer-card
