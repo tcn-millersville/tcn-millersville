@@ -35,11 +35,10 @@
         />
 
         <officer-card
-            officer-name="Tessa Hughes"
+            officer-name="Zane Weaver"
             officer-title="Secretary"
-            officer-email="tmhughe1@millersville.edu"
-            officer-linked-in="#"
-            officer-photo="tess-photo.png"
+            officer-email="zaweaver@millersville.edu"
+            officer-photo="Zane-photo.jpg"
         />
 
       </div>
