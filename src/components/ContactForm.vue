@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col">
 
-          <form method="post" action="https://forms.un-static.com/forms/10146f17ad4811e2b6189db350acad6968ce8c22">
+          <form method="post" action="https://forms.un-static.com/forms/2e4d27f2d07251e28cdf672f0caefe75aa0eee9e">
             <div class="form-group row">
               <label for="inputName" class="col-sm-2 col-form-label">Name</label>
               <div class="col-sm-10">
