@@ -2,14 +2,14 @@
   <div class="content">
     <div class="content-inner">
       <h1 style="font-size:35px">
-        <strong> Meet the Officers!</strong>
+        <strong>Meet the Officers!</strong>
       </h1>
 
       <div class="row">
 
         <officer-card
             officer-name="Tristan Rush"
-            officer-title="President"
+            officer-title="Vice President"
             officer-email="tjrush@millersville.edu"
             officer-linked-in="https://www.linkedin.com/in/tristanjrush/"
             officer-photo="Tristan-photo.png"
@@ -17,7 +17,7 @@
 
         <officer-card
             officer-name="Zac Tawfick"
-            officer-title="Vice President"
+            officer-title="President"
             officer-email="zctawfic@millersville.edu"
             officer-linked-in="https://www.linkedin.com/in/zac-tawfick/"
             officer-photo="Zac-photo.jpg"
