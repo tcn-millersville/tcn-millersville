@@ -137,7 +137,7 @@
           to begin strengthening your professional presence.
           We welcome everyone in the CS & STEM majors at Millersville to participate in our events aimed at supporting
           career development. Guest speakers, networking opportunities, and workshops, such as resume-building and mock
-          interviews, will be scheduled throughout the Spring 2024 and Fall 2024 semesters. The TCN is here to help you
+          interviews, will be scheduled throughout the Fall 2025 and Spring 2026 semesters. The TCN is here to help you
           jumpstart your career in technology!
           <br>
           <br>
