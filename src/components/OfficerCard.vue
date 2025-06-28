@@ -7,7 +7,7 @@
       <img :src="require(`@/assets/officers/${officerPhoto}`)" :alt="officerName" style="width:100%">
       <h2> {{ officerName }} </h2>
       <p class="card-title"> {{ officerTitle }} </p>
-      <p><a :href="officerEmail">{{ officerEmail }}</a></p>
+      <p>{{ officerEmail }}</p>
           <!-- Conditionally load the linkedin logo based on if the officer has one or not. -->
        <p v-if="officerLinkedIn"><a :href="officerLinkedIn" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-linkedin"></i>
